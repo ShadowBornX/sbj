@@ -7,7 +7,7 @@ body {
     background-position: center;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
 }
@@ -27,9 +27,11 @@ body {
 }
 
 .logo {
-    width: 65px; /* Ajusta el tamaño según sea necesario */
-    margin-right: 20px; /* Espaciado entre la imagen y el título */
+    width: 150px; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Esto mantiene la proporción original */
+    margin-top: 10px; //* Espaciado entre la imagen y el título */
 }
+
 
 .title-description {
     flex-grow: 1; /* Hace que la descripción ocupe todo el espacio restante */
@@ -76,3 +78,4 @@ button {
 .button:hover {
     background-color: rgb(168, 73, 73);
 }
+
